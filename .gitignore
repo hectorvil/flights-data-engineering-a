@@ -1,0 +1,22 @@
+# Datos
+data/
+flights.zip
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AWS / secretos
+.env
+.aws/
+credentials
+config
+
+# OS
+.DS_Store
