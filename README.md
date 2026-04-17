@@ -152,11 +152,7 @@ Parámetros de conexión utilizados:
 
 ### Evidencia de conexión
 
-**Añadir imagen aquí:**
-
-```markdown
-![Conexión exitosa a la Read Replica en DBeaver](docs/screenshots/dbeaver_connection.jpeg)
-```
+![Conexión exitosa a la Read Replica en DBeaver](docs/images/screenshots/dbeaver_connection.jpeg)
 
 
 ---
@@ -175,43 +171,28 @@ Se resolvieron las siguientes consultas en DBeaver:
 
 ##### P1. Top 10 rutas con mayor número de vuelos
 
-**Añadir imagen aquí:**
-
-```markdown
-![P1 - Top 10 rutas con mayor número de vuelos](docs/screenshots/p1_top_routes.jpeg)
-```
+![P1 - Top 10 rutas con mayor número de vuelos](docs/images/screenshots/p1_top_routes.jpeg)
 
 ##### P2. Top 5 aerolíneas con mayor porcentaje de cancelación
 
-**Añadir imagen aquí:**
+![P2 - Top 5 aerolíneas con mayor porcentaje de cancelación](docs/images/screenshots/p2_cancel_p.png)
 
-```markdown
-![P2 - Top 5 aerolíneas con mayor porcentaje de cancelación](docs/screenshots/p2_cancel_p.png)
-```
 
 ##### P3. Conteo de vuelos cancelados por causa
 
-**Añadir imagen aquí:**
+![P3 - Conteo de vuelos cancelados por causa](docs/images/screenshots/p3_cancel_reason.png)
 
-```markdown
-![P3 - Conteo de vuelos cancelados por causa](docs/screenshots/p3_cancel_reason.png)
-```
 
 ##### P4. Retraso promedio de salida por mes
 
-**Añadir imagen aquí:**
+![P4 - Retraso promedio de salida por mes](docs/images/screenshots/p4_avg_dep_delay.png)
 
-```markdown
-![P4 - Retraso promedio de salida por mes](docs/screenshots/p4_avg_dep_delay.png)
-```
 
 ##### P5. Aeropuertos con más minutos de weather delay
 
-**Añadir imagen aquí:**
 
-```markdown
-![P5 - Aeropuertos con más minutos de weather delay](docs/screenshots/p5_weather_delay.png)
-```
+![P5 - Aeropuertos con más minutos de weather delay](docs/images/screenshots/p5_weather_delay.png)
+
 
 ---
 
@@ -231,27 +212,18 @@ La pregunta **W2 no se resolvió en PostgreSQL**, sino en **Athena** sobre `flig
 
 ##### W1. Mayor retraso de llegada por aerolínea
 
-**Añadir imagen aquí:**
+![W1 - Mayor retraso de llegada por aerolínea](docs/images/screenshots/w1_max_arrival_delay.png)
 
-```markdown
-![W1 - Mayor retraso de llegada por aerolínea](docs/screenshots/w1_max_arrival_delay.png)
-```
 
 ##### W2. Variación mes a mes del total de vuelos (Athena)
 
 **Añadir imagen aquí:**
 
-```markdown
-![W2 - Variación mes a mes del total de vuelos](docs/screenshots/w2_athena.png)
-```
+![W2 - Variación mes a mes del total de vuelos](docs/images/screenshots/w2_athena.png)
 
 ##### W3. Primeros 5 vuelos de LAX el 2015-01-01
 
-**Añadir imagen aquí:**
-
-```markdown
-![W3 - Primeros 5 vuelos de LAX el 2015-01-01](docs/screenshots/w3_lax_first5.png)
-```
+![W3 - Primeros 5 vuelos de LAX el 2015-01-01](docs/images/screenshots/w3_lax_first5.png)
 
 ---
 
@@ -279,27 +251,20 @@ Este notebook integra dos fuentes:
 
 ##### Notebook — P1
 
-**Añadir imagen aquí:**
 
-```markdown
-![Notebook P1](docs/screenshots/notebook_p1.png)
-```
+![Notebook P1](docs/images/screenshots/notebook_p1.png)
+
 
 ##### Notebook — P2
 
-**Añadir imagen aquí:**
 
-```markdown
-![Notebook P2](docs/screenshots/notebook_p2.png)
-```
+![Notebook P2](docs/images/screenshots/notebook_p2.png)
+
 
 ##### Notebook — W2 (Athena)
 
-**Añadir imagen aquí:**
 
-```markdown
-![Notebook W2 - Variación mes a mes del total de vuelos](docs/screenshots/notebook_w2.png)
-```
+![Notebook W2 - Variación mes a mes del total de vuelos](docs/images/screenshots/notebook_w2.png)
 
 ---
 
@@ -361,39 +326,29 @@ Se ajustó un modelo **OLS** con `statsmodels`, ya que esta librería permite ob
 
 Esta gráfica permite comparar el peso relativo de cada variable explicativa y observar la incertidumbre asociada a cada coeficiente.
 
-```markdown
-![Regresión OLS - Coeficientes con intervalos de confianza](docs/screenshots/regression_coefficients.png)
-```
-
+![Regresión OLS - Coeficientes con intervalos de confianza](docs/images/screenshots/regression_coefficients.png)
+![Regresión OLS - Coeficientes con intervalos de confianza imagen](docs/images/screenshots/regression_coefficients2.png)
 ##### 2. Valores predichos vs. valores reales
 
 Este gráfico permite evaluar qué tan alineados están los valores ajustados por el modelo respecto a los valores observados.
 
-```markdown
-![Regresión OLS - Predichos vs reales](docs/screenshots/regression_pred_vs_real.png)
-```
+![Regresión OLS - Predichos vs reales](docs/images/screenshots/regression_pred_vs_real.png)
 
 ##### 3. Residuos vs. valores predichos
 
 Se utilizó para revisar si existe algún patrón sistemático en los residuos y evaluar si la especificación lineal parece razonable.
 
-```markdown
-![Regresión OLS - Residuos vs predichos](docs/screenshots/regression_residuals.png)
-```
+![Regresión OLS - Residuos vs predichos](docs/images/screenshots/regression_residuals.png)
 
 ##### 4. Q-Q plot de residuos
 
 Este gráfico compara la distribución empírica de los residuos contra una normal teórica, permitiendo inspeccionar desviaciones en colas.
 
-**Añadir imagen aquí:**
 
-```markdown
-![Regresión OLS - Q-Q plot de residuos](docs/screenshots/regression_qqplot.png)
-```
+![Regresión OLS - Q-Q plot de residuos](docs/images/screenshots/regression_qqplot.png)
 
 #### Interpretación
-
-En esta sección se reportan **R²** y **RMSE**, además de una interpretación breve de los diagnósticos. Dado que varios componentes del retraso están altamente relacionados con el retraso total, era esperable observar **multicolinealidad**, por lo que los coeficientes deben interpretarse con cautela. Aun así, el modelo permite identificar qué variables tienen mayor asociación con el retraso de llegada y qué tan bien se ajusta una especificación lineal simple a este problema.
+En la gráfica de coeficientes, los cinco componentes específicos de retraso tales como air_system_delay, airline_delay, weather_delay, late_aircraft_delay, security_delay aparecen como los de mayor peso, con coeficientes cercanos a 1, mientras que distance y departure_delay tienen un efecto nulo. Sin embargo, el modelo presenta multicolinealidad ya que los componentes de retraso contienen información muy cercana al retraso total de llegada. En la gráfica de valores predichos vs. reales, los puntos están casi completamente alineados sobre la diagonal, lo que refleja un ajuste prácticamente perfecto, lo cual se puede observar en una R2 de 1. No obstante, los residuos vs. predichos muestran estructura en lugar de una nube aleatoria, señal de heterocedasticidad, y el Q-Q plot exhibe colas claramente alejadas de la normal, lo que nos sugiere que los supuestos clásicos de normalidad e independencia de residuos no se cumplen.
 
 ---
 
@@ -456,9 +411,7 @@ Se grafican:
 
 **Añadir imagen aquí:**
 
-```markdown
-![Forecast - Evaluación sobre test set](docs/screenshots/forecast_test_eval.png)
-```
+![Forecast - Evaluación sobre test set](docs/images/screenshots/forecast_test_eval.png)
 
 ##### 2. Pronóstico de 6 meses hacia adelante
 
@@ -466,9 +419,8 @@ Se muestra la serie observada de 2015 junto con el pronóstico de los siguientes
 
 **Añadir imagen aquí:**
 
-```markdown
-![Forecast - Pronóstico de 6 meses hacia adelante](docs/screenshots/forecast_6m.png)
-```
+![Forecast - Pronóstico de 6 meses hacia adelante](docs/images/screenshots/forecast_6m.png)
+
 
 ##### 3. Comparación de MAE
 
@@ -476,13 +428,12 @@ Se resume el error absoluto medio de cada modelo sobre el test set, lo que permi
 
 **Añadir imagen aquí:**
 
-```markdown
-![Forecast - Comparación de MAE](docs/screenshots/forecast_mae.png)
-```
+![Forecast - Comparación de MAE](docs/images/screenshots/forecast_mae.png)
+
 
 #### Interpretación
 
-Con solo 12 meses de historia y 9 meses de entrenamiento, la incertidumbre del pronóstico es alta, por lo que las bandas de confianza son una parte central del análisis. La comparación por **MAE** permite identificar cuál de los tres modelos se acercó mejor a los valores reales del test set, mientras que las gráficas ayudan a evaluar visualmente estabilidad y amplitud de los intervalos.
+En el test set, AutoARIMA y AutoETS muestran el mejor desempeño y registran los menores valores de MAE, mientras que AutoTheta queda  por detrás. Las bandas de confianza al 90% se ven amplias y se sobreponen entre los modelos, lo que indica una incertidumbre importante en la proyección, dado que el entrenamiento utiliza solo 9 meses de información y no alcanza a cubrir dos ciclos estacionales completos, el pronóstico debe interpretarse como una aproximación  del nivel de vuelos, pero no como una proyección de alta precisión.
 
 ---
 
@@ -496,11 +447,4 @@ Con solo 12 meses de historia y 9 meses de entrenamiento, la incertidumbre del p
 
 ---
 
-## Nota final
 
-Esta parte del proyecto complementa el pipeline Bronze → Silver → Gold con una capa de consumo analítico orientada a exploración, interpretación y pronóstico:
-
-- SQL exploratorio y validación en DBeaver
-- consultas repetibles en notebook
-- interpretación estadística con OLS
-- pronóstico mensual con modelos automáticos de series de tiempo
